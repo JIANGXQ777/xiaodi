@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>玉屏萧笛・竹韵匠心 - 中国国家级非物质文化遗产</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loader">
+        <canvas id="loader-ink-canvas"></canvas>
+        <div class="loader-scroll left">
+            <div class="scroll-edge"></div>
+        </div>
+        <div class="loader-scroll right">
+            <div class="scroll-edge"></div>
+        </div>
+        <div class="loader-content">
+            <div class="loader-text-wrapper">
+                <span class="loader-char" data-char="玉">玉</span>
+                <span class="loader-char" data-char="屏">屏</span>
+                <span class="loader-char" data-char="萧">萧</span>
+                <span class="loader-char" data-char="笛">笛</span>
+            </div>
+            <div class="loader-seal"></div>
+        </div>
+    </div>
+
+    <nav class="main-nav">
+        <div class="nav-brand">
+            <span class="brand-text">玉屏萧笛</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#hero" class="active">首页</a></li>
+            <li><a href="#craft">工艺</a></li>
+            <li><a href="#products">雅器</a></li>
+            <li><a href="#culture">文化</a></li>
+            <li><a href="#audio">听竹</a></li>
+        </ul>
+        <div class="nav-seal">非遗</div>
+    </nav>
+
+    <section id="hero">
+        <canvas id="ink-canvas"></canvas>
+        <div class="hero-content">
+            <div class="hero-seal">
+                <span>非遗</span>
+            </div>
+            <h1 class="main-title">玉屏萧笛</h1>
+            <div class="title-ink-line"></div>
+            <p class="subtitle">竹韵匠心</p>
+            <p class="hero-desc">中国国家级非物质文化遗产</p>
+            <div class="hero-poem">
+                <p>仙到玉屏留古调</p>
+                <p>韩湘遗箫传千年</p>
+            </div>
+        </div>
+        <div class="scroll-hint">
+            <div class="scroll-arrow"></div>
+            <span>向下滚动</span>
+        </div>
+    </section>
+
+    <section id="intro" class="section">
+        <div class="container">
+            <div class="intro-grid">
+                <div class="intro-card">
+                    <div class="intro-icon">壹</div>
+                    <h3>贵州三宝</h3>
+                    <p>与茅台酒、大方漆器并称"贵州三宝"，享誉海内外</p>
+                </div>
+                <div class="intro-card">
+                    <div class="intro-icon">贰</div>
+                    <h3>四百年传承</h3>
+                    <p>始创于明万历年间，至今已有四百余年历史</p>
+                </div>
+                <div class="intro-card">
+                    <div class="intro-icon">叁</div>
+                    <h3>国家级非遗</h3>
+                    <p>2006年列入首批国家级非物质文化遗产名录</p>
+                </div>
+                <div class="intro-card">
+                    <div class="intro-icon">肆</div>
+                    <h3>国际金奖</h3>
+                    <p>1913年伦敦银奖，1923年巴拿马金奖</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="craft" class="section alt-bg">
+        <div class="section-header">
+            <h2 class="section-title">匠心工艺</h2>
+            <p class="section-subtitle">四十二道工序・道道匠心</p>
+        </div>
+        
+        <div class="craft-intro">
+            <p>玉屏萧笛制作工艺严苛至极，需选用玉屏特有水竹，经取材、制坯、雕刻、成品四大工艺流程，箫制作24道工序，笛制作38道工序，均采用手工制作。</p>
+        </div>
+
+        <div class="craft-grid">
+            <div class="craft-item" data-step="1">
+                <div class="craft-number">01</div>
+                <div class="craft-content">
+                    <h3>取材</h3>
+                    <p>选用玉屏特有水竹，生长于阴山溪旁少见阳光之处。竹节长、肉厚，通根粗细一致。立冬后两月砍伐，此时竹含水糖少，不易开裂霉变。</p>
+                    <div class="craft-video">
+                        <video controls poster="微信图片_20260317205031_1272_152.jpg">
+                            <source src="视频/制作视频.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="craft-item" data-step="2">
+                <div class="craft-number">02</div>
+                <div class="craft-content">
+                    <h3>制坯</h3>
+                    <p>刨外节、刮竹、选材下料、通内节、烘烤校直、精刨、弹中线、滚墨线、打音孔、水磨、修眼。十余道工序，道道精细。</p>
+                    <div class="craft-images">
+                        <img src="微信图片_20260317204101_1263_152.png" alt="制坯">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="craft-item" data-step="3">
+                <div class="craft-number">03</div>
+                <div class="craft-content">
+                    <h3>雕刻</h3>
+                    <p>刻字刻图，脱墨磨字，粘贴图样，雕刻水磨。龙凤呈祥、山水花鸟、诗词歌赋，刀法细腻，将形声之美融为一体。</p>
+                    <div class="craft-images">
+                        <img src="微信图片_20260317204103_1265_152.png" alt="雕刻">
+                        <img src="微信图片_20260317204103_1266_152.png" alt="雕刻细节">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="craft-item" data-step="4">
+                <div class="craft-number">04</div>
+                <div class="craft-content">
+                    <h3>成品</h3>
+                    <p>烘烤上镪水，水磨洗涤，填色揩漆。用骨节草擦去尘垢，玉钏子打磨光亮，管身古铜色彩，古朴典雅。</p>
+                    <div class="craft-images">
+                        <img src="微信图片_20260317205032_1273_152.jpg" alt="成品">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="section">
+        <div class="section-header">
+            <h2 class="section-title">龙箫凤笛</h2>
+            <p class="section-subtitle">雌雄相配・音韵清越</p>
+        </div>
+        
+        <div class="products-intro">
+            <p>玉屏萧笛上多雕刻龙凤图案，有"龙箫凤笛"之称。传统对萧分雌雄，雌萧略细，雄箫略粗，音如凤鸣龙吟之别。雌雄皆配，刚柔相济，其声和谐。</p>
+        </div>
+
+        <div class="products-grid">
+            <div class="product-card" data-product="1">
+                <div class="product-img">
+                    <img src="微信图片_20260317205032_1273_152.jpg" alt="龙纹箫">
+                </div>
+                <div class="product-info">
+                    <h3>龙纹箫</h3>
+                    <p>黑底金纹・音色浑厚</p>
+                </div>
+            </div>
+            <div class="product-card" data-product="2">
+                <div class="product-img">
+                    <img src="微信图片_20260317204104_1267_152.png" alt="凤纹笛">
+                </div>
+                <div class="product-info">
+                    <h3>凤纹笛</h3>
+                    <p>精美雕刻・音色清越</p>
+                </div>
+            </div>
+            <div class="product-card" data-product="3">
+                <div class="product-img">
+                    <img src="微信图片_20260317205031_1272_152.jpg" alt="枫叶箫">
+                </div>
+                <div class="product-info">
+                    <h3>枫叶箫</h3>
+                    <p>自然纹理・寓意吉祥</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="videos-section">
+            <h3 class="videos-title">演奏欣赏</h3>
+            <div class="videos-grid">
+                <div class="video-card">
+                    <video controls poster="微信图片_20260317204104_1267_152.png">
+                        <source src="视频/演奏视频.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-card">
+                    <video controls poster="微信图片_20260317204103_1265_152.png">
+                        <source src="视频/演奏视频2.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="culture" class="section alt-bg">
+        <div class="section-header">
+            <h2 class="section-title">文化传承</h2>
+            <p class="section-subtitle">千年遗韵・匠心传承</p>
+        </div>
+        
+        <div class="culture-content">
+            <div class="culture-story">
+                <h3>八仙传说</h3>
+                <p>相传若干年前，玉屏郑氏到镇远访友，偶遇鹤发童颜的老道鹿皮翁，结为知己。一日，二人游至玉屏峰，见韩湘子、吕洞宾、张果老等八仙从东边天际乘祥云飘然而至，坐在石莲峰上吹拉弹唱。</p>
+                <p>二人寻至石莲峰，拾得韩湘子遗箫一支。次日，又至飞凤山，老道选取两根凤尾水竹，制成箫笛一对，雌雄相配，声调婉转清幽。道人将制作技艺传授郑氏，世代相传。</p>
+            </div>
+            
+            <div class="culture-timeline">
+                <div class="timeline-item">
+                    <span class="year">明万历年间</span>
+                    <span class="event">郑维藩创制平箫</span>
+                </div>
+                <div class="timeline-item">
+                    <span class="year">清雍正五年</span>
+                    <span class="event">创制玉笛</span>
+                </div>
+                <div class="timeline-item">
+                    <span class="year">明清两朝</span>
+                    <span class="event">列为朝廷贡品</span>
+                </div>
+                <div class="timeline-item">
+                    <span class="year">1913年</span>
+                    <span class="event">伦敦国际工艺品展览会银质奖</span>
+                </div>
+                <div class="timeline-item">
+                    <span class="year">1923年</span>
+                    <span class="event">巴拿马万国博览会金质奖</span>
+                </div>
+                <div class="timeline-item">
+                    <span class="year">2006年</span>
+                    <span class="event">列入国家级非物质文化遗产</span>
+                </div>
+            </div>
+            
+            <div class="culture-value">
+                <h3>文化价值</h3>
+                <p>玉屏萧笛是玉屏当地侗、汉、苗、土家等多民族文化发展的结晶，具有较高的历史文化和工艺价值。箫笛上雕刻的龙凤、花鸟等图案，既体现了汉族传统文化中对吉祥如意的追求，又融入了侗族等少数民族对自然的崇拜和独特的艺术表达。</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="audio" class="section">
+        <div class="section-header">
+            <h2 class="section-title">听竹</h2>
+            <p class="section-subtitle">闻声见墨・音画合一</p>
+        </div>
+        
+        <div class="audio-section">
+            <canvas id="audio-canvas"></canvas>
+            <div class="audio-players">
+                <div class="audio-item" data-audio="1">
+                    <div class="audio-disc"></div>
+                    <p>龙纹箫</p>
+                </div>
+                <div class="audio-item" data-audio="2">
+                    <div class="audio-disc"></div>
+                    <p>凤纹笛</p>
+                </div>
+                <div class="audio-item" data-audio="3">
+                    <div class="audio-disc"></div>
+                    <p>枫叶箫</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="footer-seal">
+            <span>玉屏萧笛</span>
+            <small>非遗传承</small>
+        </div>
+        <div class="footer-info">
+            <p>中国国家级非物质文化遗产</p>
+            <p>传承千年文化・弘扬工匠精神</p>
+        </div>
+        <div class="footer-contact">
+            <p>地址：贵州省铜仁市玉屏侗族自治县</p>
+            <p>作者：HeQin</p>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2026 玉屏萧笛非遗文化传承</p>
+        </div>
+    </footer>
+
+    <div id="product-modal" class="modal">
+        <div class="modal-bg"></div>
+        <div class="modal-box">
+            <button class="modal-close">&times;</button>
+            <img id="modal-img" src="" alt="">
+            <h3 id="modal-title"></h3>
+            <p id="modal-desc"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
